@@ -14,10 +14,7 @@ public interface ProductRepository extends JpaRepository<Product, Integer>{
 	@Query("SELECT e FROM Product e WHERE e.active =true ORDER BY :param DESC ")
 	List<Product> getProductsByParam(String param, Pageable pageable);	
 	
-	
-	// business methods
-	
-	
+		
 	@Query("SELECT e FROM Product e WHERE e.active =true")
 	List<Product> listActiveProducts();	
 	
