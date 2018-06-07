@@ -1,2 +1,2 @@
 # shoppingonline
-Online Shopping project with Spring Mvc , Jpa
+Online Shopping project with Java ,Spring Mvc , Jpa
