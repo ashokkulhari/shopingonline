@@ -44,7 +44,7 @@ public class CartController {
 					mv.addObject("message", "One or more items inside cart has been modified!");
 					break;
 				case "maximum":
-					mv.addObject("message", "Maximum limit for the item has been reached!");
+					mv.addObject("message", "Maximum limit for the item has been reached! ");
 					break;
 				case "deleted":
 					mv.addObject("message", "CartLine has been successfully removed!");
