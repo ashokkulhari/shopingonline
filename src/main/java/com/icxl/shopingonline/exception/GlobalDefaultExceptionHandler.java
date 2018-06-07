@@ -48,8 +48,7 @@ public class GlobalDefaultExceptionHandler {
 		ModelAndView mv = new ModelAndView("error");
 		
 		mv.addObject("errorTitle", "Contact Your Administrator!!");
-		
-		
+				
 		/* only for debugging your application*/
 		StringWriter sw = new StringWriter();
 		PrintWriter pw = new PrintWriter(sw);
