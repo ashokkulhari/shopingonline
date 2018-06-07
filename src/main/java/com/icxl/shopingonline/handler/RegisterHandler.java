@@ -34,7 +34,8 @@ public class RegisterHandler {
  }
 
  public String validateUser(User user, MessageContext error) {
-  String transitionValue = "success";
+  
+	 String transitionValue = "success";
    if(!user.getPassword().equals(user.getConfirmPassword())) {
     error.addMessage(new MessageBuilder().error().source(
       "confirmPassword").defaultText("Password does not match confirm password!").build());
