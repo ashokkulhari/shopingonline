@@ -11,7 +11,7 @@
   <properties>
 		<javaee.version>7.0</javaee.version>
 		<spring.version>5.2.7.RELEASE</spring.version>
-		<spring.security.version>4.2.2.RELEASE</spring.security.version>
+		<spring.security.version>5.2.10.RELEASE</spring.security.version>
 		<jackson.version>2.11.1</jackson.version>
 		<spring-data-jpa.version>1.11.23.RELEASE</spring-data-jpa.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
